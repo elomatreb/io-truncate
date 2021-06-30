@@ -1,0 +1,16 @@
+[package]
+name = "io-truncate"
+version = "0.1.0"
+edition = "2018"
+description = "IO objects which can be shortened (truncated)"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/elomatreb/io-truncate"
+keywords = ["io", "truncate", "utility"]
+categories = ["filesystem"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dev-dependencies]
+tempfile = "3.2.0"
